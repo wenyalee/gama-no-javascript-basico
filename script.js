@@ -1,7 +1,7 @@
 console.log('Javascript carregado');
 
 function validaCPF(cpf) {
-    return true;
+    return false;
 }
 
 function validacao() {
@@ -13,5 +13,7 @@ function validacao() {
 
     if (resultadoValidacao) {
         document.getElementById('success').style.display = 'block';
+    } else {
+        document.getElementById('error').style.display = 'block';
     }
 }
